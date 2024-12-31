@@ -32,13 +32,13 @@ jobs:
       - name: Create Release zip
         run: |
           mkdir -p dist
-          git archive --format=zip --output "dist/${{ steps.pak-name.outputs.PAK_NAME }}.zip" HEAD
+          git archive --format=zip --output "dist/${{ steps.pak-name.outputs.PAK_NAME }}.pak.zip" HEAD
           ls -lah dist
 
       - name: Attest Build Provenance
         uses: actions/attest-build-provenance@v2.1.0
         with:
-          subject-path: "dist/${{ steps.pak-name.outputs.PAK_NAME }}.zip"
+          subject-path: "dist/${{ steps.pak-name.outputs.PAK_NAME }}.pak.zip"
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4

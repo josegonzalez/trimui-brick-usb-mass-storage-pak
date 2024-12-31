@@ -1,0 +1,5 @@
+{
+    "label": "USB Mass Storage",
+    "launch": "launch.sh",
+    "description": "Enables USB Mass Storage"
+}

@@ -1,5 +1,5 @@
 ---
-name: "tagged-release"
+name: "ci"
 
 # yamllint disable-line rule:truthy
 on:
@@ -16,8 +16,8 @@ permissions:
   contents: write
 
 jobs:
-  tagged-release:
-    name: tagged-release
+  ci:
+    name: ci
     runs-on: ubuntu-22.04
 
     steps:

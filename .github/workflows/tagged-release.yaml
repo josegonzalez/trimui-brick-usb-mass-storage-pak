@@ -30,6 +30,7 @@ jobs:
         run: |
           mkdir -p dist
           git archive --format=zip --output "dist/${{ steps.pak-name.outputs.PAK_NAME }}.zip" HEAD
+          ls -lah dist
 
       - name: Attest Build Provenance
         uses: actions/attest-build-provenance@v2.1.0

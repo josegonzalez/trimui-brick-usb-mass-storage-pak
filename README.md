@@ -4,6 +4,10 @@ A TrimUI Brick app wrapping the built-in USB Mass Storage app.
 
 > [!WARNING]
 > Usage of this app may result in SD card corruption. Use at your own risk.
+>
+> Instead, **Heavily consider installing** connecting your device via USB cable and
+> installing `adb` (Android Debug Bridge) or using [WebADB](https://app.webadb.com/)
+> in your browser for a drag and drop experience.
 
 ## Installation
 

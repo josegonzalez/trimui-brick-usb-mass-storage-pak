@@ -2,6 +2,7 @@
     "label": "USB Mass Storage",
     "launch": "launch.sh",
     "description": "Enables USB Mass Storage",
+    "pak_type": "tool",
     "platforms": [
         "tg5040"
     ]

@@ -1,13 +1,13 @@
 {
-    "name": "USB Mass Storage",
-    "type": "TOOL",
-    "description": "Enables USB Mass Storage",
-    "author": "josegonzalez",
-    "repo_url": "https://github.com/josegonzalez/minui-usb-mass-storage-pak",
-    "release_filename": "USB.Mass.Storage.pak.zip",
-    "platforms": [
-        "tg5040"
-    ],
-    "launch": "launch.sh",
-    "version": "latest"
+  "name": "USB Mass Storage",
+  "type": "TOOL",
+  "description": "Enables USB Mass Storage",
+  "author": "josegonzalez",
+  "repo_url": "https://github.com/josegonzalez/minui-usb-mass-storage-pak",
+  "release_filename": "USB.Mass.Storage.pak.zip",
+  "platforms": [
+    "tg5040"
+  ],
+  "launch": "launch.sh",
+  "version": "0.3.2"
 }

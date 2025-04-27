@@ -3,7 +3,7 @@
   "type": "TOOL",
   "description": "Enables USB Mass Storage",
   "author": "josegonzalez",
-  "repo_url": "https://github.com/josegonzalez/minui-usb-mass-storage-pak",
+  "repo_url": "https://github.com/josegonzalez/trimui-brick-usb-mass-storage-pak",
   "release_filename": "USB.Mass.Storage.pak.zip",
   "platforms": [
     "tg5040"
